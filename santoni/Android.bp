@@ -1,5 +1,4 @@
 // Copyright (C) 2019 The LineageOS Project
-// Copyright (C) 2019 The PixelExperience Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -13,7 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-
 soong_namespace {
 }
 
@@ -22,28 +20,3 @@ dex_import {
     owner: "xiaomi",
     jars: ["proprietary/framework/WfdCommon.jar"],
 }
-
-dex_import {
-    name: "QPerformance",
-    owner: "xiaomi",
-    jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-    name: "UxPerformance",
-    owner: "xiaomi",
-    jars: ["proprietary/framework/UxPerformance.jar"],
-}
-
-prebuilt_etc {
-    name: "com.qualcomm.qti.Performance.xml",
-    src: "proprietary/etc/permissions/com.qualcomm.qti.Performance.xml",
-    sub_dir: "permissions",
-}
-
-prebuilt_etc {
-    name: "com.qualcomm.qti.UxPerformance.xml",
-    src: "proprietary/etc/permissions/com.qualcomm.qti.UxPerformance.xml",
-    sub_dir: "permissions",
-}
-
