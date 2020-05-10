@@ -2281,6 +2281,4 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java \
-    com.qualcomm.qti.UxPerformance.xml \
-    com.qualcomm.qti.Performance.xml
+    vendor.qti.hardware.sensorscalibrate-V1.0-java
