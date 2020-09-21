@@ -1606,6 +1606,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
     vendor/xiaomi/santoni/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/xiaomi/santoni/proprietary/lib/libprotobuf-cpp-full-santoni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-full-santoni.so \
+    vendor/xiaomi/santoni/proprietary/lib64/libprotobuf-cpp-full-santoni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprotobuf-cpp-full-santoni.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/santoni/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
     vendor/xiaomi/santoni/proprietary/lib/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdclient.so \
